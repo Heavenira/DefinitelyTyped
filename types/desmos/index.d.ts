@@ -1046,5 +1046,15 @@ declare namespace Desmos {
          * @default ""
          */
         randomSeed?: string;
+        /**
+         * Which calculator is currently in use.
+         * @default undefined
+         */
+        product?: "graphing-3d" | "geometry-calculator";
+        /**
+         * Show the 3D scene as a flat overhead projection.
+         * @default false
+         */
+        threeDMode?: boolean;
     }
 }
